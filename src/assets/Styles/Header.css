@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'b yekan';
+}
+.d-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    margin: 50px 10px;
+    align-items: center;
+}
+.content{
+    position: relative;
+}
+.txt-header1::before{
+    content: "";
+    position: absolute;
+    right: -5px;
+    top: 8px;
+    width: 1px;
+    height: 40px;
+    background-color: #B4B4B4;
+}
+.txt-header1{
+    font-size: 20px;
+}
+.header .menus .nav-item a.nav-link{
+    color: #575757;
+    border-radius: 10px;
+    padding: 9px;
+}
+.header .menus .nav-item a.nav-link:hover{
+    /* box-shadow: 0 0 5px 5px #eb3345; */
+    background-color: #EE273A;
+    color: white;
+}
+.header .menus .navbar-nav{
+    gap: 15px;
+}
+.header .menus .navbar{
+    margin-bottom: 10px;
+}
+.header  .searchBox{
+    width: 100%;
+    outline: none;
+    border: 1px solid #B4B4B4;
+    margin-bottom: 10px;
+}
+.header .menus .searchBox::placeholder{
+    padding: 10px;
+}
+.icons{
+    justify-content: space-around;
+    
+}
+.icons svg{
+    font-size: 25px;
+    cursor: pointer;
+    font-size: 900;
+}
+.header .icons .basket{
+    padding: 10px;
+    position: relative;
+}
+.header .icons .basket span{
+    position: absolute;
+    top: -11px;
+    right: -6px;
+    background-color: black;
+    border-radius: 15px;
+    text-align: center;
+    width: 25px;
+    padding: 1px;
+}
+.header .icons .like{
+    background-color: #CFE0FF;
+    padding: 10px;
+}
+.header .icons .like svg{
+    color: blue;
+}
+.header .icons .arrow{
+    background-color: #dedede;
+    padding: 10px;
+}
+/* .header .icons .user::before{
+    content: "";
+    position: absolute;
+    right: -15px;
+    top: 3px;
+    width: 1px;
+    height: 40px;
+    background-color: #B4B4B4;
+} */
+.header .icons .user{
+    background-color: #1E2E33;
+    position: relative;
+    padding: 10px;
+}
+.searchBoxConteiner{
+    display: none;
+}
+@media only screen and (max-width : 991px){
+    .searchBoxConteiner{
+        display: block;
+        margin-top: 10px;
+    }
+    .searchBoxMain{
+        display: none;
+    }
+    .header .menus .navbar{
+        background-color: transparent !important;
+    }
+    .header .icons .user::before{
+        display: none;
+    }
+    .header .logo{
+        margin-bottom: 10px;
+
+    }
+}
