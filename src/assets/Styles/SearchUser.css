@@ -1,0 +1,98 @@
+.alertUser{
+  position: absolute;
+  top: 10px;
+  /* right: 270px; */
+  z-index: 10;
+}
+.UserCarts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.UserCarts .Usercart{
+    width: 240px;
+    height: 330px;
+    border: 1px solid #cececed8;
+    border-radius: 5px;
+    text-align: start;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.btnUser{
+    display: flex;
+    gap: 10px;
+}
+.btnUser button{
+    border: none;
+    border-radius: 3px;
+    padding: 2px 10px;
+    color: white;
+}
+.btnUser .UserbtnEdit{
+    background-color: orangered;
+}
+.btnUser .UserbtnDelete{
+    background-color: red;
+}
+.ParentLoader{
+    background-color: rgba(128, 128, 128, 0.418);
+    z-index: 10;
+    position: absolute;
+    right: 0;
+    width: 225vh;
+    height: 142vh;
+}
+.LoaderCon{
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(3px);
+    position: absolute;
+    z-index: 99;
+}
+.loader {
+    position: absolute;
+    left: 45%;
+    top: 50%;
+    z-index: 100;
+    display: inline-flex;
+    gap: 10px;
+  }
+  .loader:before,
+  .loader:after {
+    content: "";
+    height: 20px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background:
+      linear-gradient(#222 0 0) top/100% 40% no-repeat,
+      radial-gradient(farthest-side,#000 95%,#0000) 50%/8px 8px no-repeat
+      #fff;
+    animation: l7 1.5s infinite alternate ease-in;
+  }
+  @keyframes l7 {
+    0%,
+    70% {background-size:100% 40%,8px 8px}
+    85% {background-size:100% 120%,8px 8px}
+    100% {background-size:100% 40%,8px 8px}
+  }
+  .EditInput{
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    gap: 3px;
+  }
+  .EditInput input{
+    margin-top: 10px;
+    outline: none;
+    padding: 3px;
+  }
+:where(.css-dev-only-do-not-override-11xg00t).ant-modal .ant-modal-footer >.ant-btn+.ant-btn{
+    margin: inline start 0;
+    margin-top: 15px;
+
+}

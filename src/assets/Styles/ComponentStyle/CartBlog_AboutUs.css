@@ -1,0 +1,92 @@
+.AboutUsMainPage{
+    transform: translateY(250px);
+    margin: 100px 80px;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+}
+.AboutUsMainPage .TextAboutUs{
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    width: 615px;
+}
+
+.AboutUsMainPage .TextAboutUs .title .text{
+    font-weight: bolder;
+}
+.AboutUsMainPage .TextAboutUs .title .text p{
+    font-size: 40px;
+}
+.AboutUsMainPage .TextAboutUs .title .text span{
+    color: #EE273A;
+}
+
+.AboutUsMainPage .TextAboutUs .content{
+    color: #A9AFB7;
+    text-align: justify;
+}
+.BlogCart{
+    margin: 100px 80px;
+    transform: translateY(200px);
+}
+:where(.css-dev-only-do-not-override-11xg00t).ant-carousel .slick-dots li.slick-active button{
+    background-color: #464646 ;
+}
+:where(.css-dev-only-do-not-override-11xg00t).ant-carousel .slick-dots li button{
+    background-color: #b4b4b4 ;
+}
+.BlogCart .ant-carousel{
+    width: 350px !important;
+}
+.CardStyle{
+    margin-bottom: 10px;
+    direction: rtl;
+    /* gap: 50px; */
+    margin-right: 0;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+.footerBlogCart{
+    flex-wrap: wrap;
+    gap: 30px;
+}
+:where(.css-dev-only-do-not-override-11xg00t).ant-card .ant-card-actions>li >span >.anticon{
+    width: 45px;
+    /* gap: 40px; */
+}
+:where(.css-dev-only-do-not-override-11xg00t).ant-carousel .slick-list .slick-slide >div>div{
+    width: 90%;
+}
+:where(.css-dev-only-do-not-override-11xg00t).ant-carousel .slick-slider{
+    margin-left: 10px;
+}
+.BlogCart .ant-carousel{
+    width: 309px !important;
+}
+@media only screen and (max-width : 1100px){
+    .AboutUsMainPage .AboutUsImg img{
+        display: none;
+    }
+    .AboutUsMainPage{
+        flex-wrap: wrap;
+        margin: 100px 20px;
+        justify-content: center;
+    }
+}
+  @media only screen and (max-width : 400px){
+    .BlogCart{
+        margin: 100px 10px;
+    }
+    /* .BlogSlider .slick-slide{
+        width: 410px;
+    } */
+  }
+  @media only screen and (max-width : 320px){
+    .BlogCart .ant-carousel{
+        width: 300px !important;
+    }
+    .BlogSlider .slick-list .CardStyle{
+        /* width: 310px; */
+        transform: translateX(25px);
+    }
+  }

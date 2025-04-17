@@ -1,0 +1,61 @@
+.UserMenu{
+    width: 20%;
+    height: 100vh;
+    background: #0FCBAB;
+    background-image: url('../images/blob.svg');
+    padding: 30px 10px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    gap: 30px;
+    z-index: 10000;
+}
+.DasboardUser{
+    display: flex;
+    gap: 30px;
+}
+.dashContent{
+    margin: 20px;
+    width: 80%;
+}
+.UserMenu .UserMenuItem svg{
+    font-size: 20px;
+    color: #4B1D73;
+}
+.UserMenu .UserMenuItem a span{
+    margin-right: 20px;
+    color: rgb(228, 228, 228);
+}
+.UserMenu .UserMenuItem a{
+    text-decoration: none;
+}
+.UserMenu .UserMenuItem:last-child span ,.UserMenu .UserMenuItem:last-child svg {
+    color: rgb(247, 20, 20) !important;
+    font-weight: bold;
+}
+@media screen and (max-width: 700px){
+    .UserMenu{
+        width: 40px;
+        height: 128vh;
+        /* margin-right: -26px; */
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 100;
+    }
+    .UserMenu:hover{
+        width: 200px;
+    }
+    .UserMenu:hover .UserMenuItem a span{
+        display: inline;
+    }
+    .UserMenu .UserMenuItem a span{
+        display: none;
+    }
+}
+@media screen and (max-width: 550px){
+    .UserMenu{
+        margin-right: 0;
+    }
+}

@@ -1,0 +1,93 @@
+.BasketContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #344955;
+}
+.ProductsInBasket{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.ProductsInBasket .ProBS{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 10px 20px;
+    backdrop-filter: blur(18px) saturate(162%);
+    -webkit-backdrop-filter: blur(18px) saturate(162%);
+    background-color: rgba(255, 255, 255, 0.76);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+}
+.ProductsInBasket .ProBS .content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    /* padding-left: 20px; */
+    gap: 20px;
+    width: 100%;
+}
+.ProductsInBasket .ProBS .content .aboutProduct .TitlePro{
+    margin-bottom: 30px;
+}
+.ProductsInBasket .ProBS .content .counter{
+    display: flex;
+    gap: 10px;
+}
+.ProductsInBasket .ProBS .content .counter button{
+    padding: 3px 30px;
+    border: none;
+    background-color: #FFA62F;
+    border-radius: 10px;
+}
+/* PricePro */
+.resultProduct{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 219, 92, 0.46);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.2px);
+    -webkit-backdrop-filter: blur(4.2px);
+    border: 1px solid rgba(255, 219, 92, 0.51);
+    width: 70%;
+    margin: 20px 0;
+    padding: 10px;
+}
+.resultProduct button{
+    width: 200px;
+    background-color: #C3FF93;
+    padding: 5px 30px;
+    border: none;
+    border-radius: 10px;
+}
+.resultProduct button:disabled{
+    background-color: gray;
+    cursor: no-drop;
+}
+@media only screen and (max-width : 750px){
+    /* .ProductsInBasket .ProBS .content{
+        margin-left: 0px;
+    } */
+    .ProductsInBasket .ProBS{
+        width: 100%;
+    }
+    .resultProduct{
+        width: 100%;
+    }
+}
+.deleteItem{
+    background: linear-gradient(23deg, #fc5741 0%, #ff8d8d 100%);
+    padding: 8px;
+    box-shadow: 0px 2px 25px 0px rgba(255, 157.99999999999994, 115.00000000000001, 0.51);
+    border-radius: 10px;
+    border: none;
+}

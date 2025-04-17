@@ -1,0 +1,109 @@
+.AdminDash{
+    display: flex;
+    gap: 30px;
+}
+.Menu{
+    width: 20%;
+    height: 100vh;
+    background: #0FCBAB;
+    background-image: url('../images/blob.svg');
+    padding: 30px 10px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    gap: 30px;
+    z-index: 10000;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.Content{
+    width: 80%;
+    /* height: 100vh; */
+    padding: 10px;
+}
+.Menu .MenuItem a{
+    text-decoration: none;
+    color: rgb(238, 238, 238);
+}
+.Menu .MenuItem svg{
+    font-size: 20px;
+    color: #4B1D73;
+}
+.Menu .MenuItem span{
+    padding-right: 20px;
+    font-size: 18px;
+}
+.Menu .MenuItem .subItem{
+    margin-top: 15px;
+    display: none;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    margin-right: 20px;
+    gap: 15px;
+    width: 100%;
+}
+.Menu .MenuItem:last-child span ,.Menu .MenuItem:last-child svg {
+    color: rgb(247, 20, 20) !important;
+    font-weight: bold;
+}
+.subItem{
+    transition: all .5s linear;
+}
+.Menu .MenuItem:hover .subItem{
+    display: flex !important;
+}
+.Menu{
+    position: relative;
+}
+.Menu .MenuItem a::after{
+    content: "";
+    width: 10px;
+    height: 35px;
+    display: none;
+    position: absolute;
+    left: -2px;
+    border-radius: 10px 5px 5px 10px;
+    background-color: #fff;
+}
+.Menu .MenuItem a:hover::after{
+    display: inline;
+    transition: all .5s linear;
+}
+
+@media screen and (max-width: 1015px) {
+ .Menu{
+    width: 5%;
+    align-items: center;
+    position: absolute;
+    top: 0;
+ }
+ .Menu .MenuItem span{
+     display: none;
+    }
+    .Content{
+        width: 95%;
+        margin-right: 25px;
+
+    }
+
+    .Menu:hover{
+       width: 300px;
+        align-items: start;
+        transition: all .2s linear;
+    }
+    .Menu:hover .MenuItem span{
+       display: inline;
+    }
+}
+@media screen and (max-width: 480px){
+    .Menu{
+        width: 7%;
+    }
+    .Menu:hover{
+        width: 200px;
+        
+    }
+}

@@ -1,0 +1,80 @@
+.AjaxTab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: translateY(115px);
+    /* background-color: #FFC107; */
+    /* margin-top: 100px; */
+}
+.AjaxTabBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    gap: 20px;
+    width: 450px;
+}
+.AjaxTabBtn button{
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(23deg, #458799 0%, #87bdcc 100%);
+    box-shadow: 0px 2px 25px 0px rgba(136, 192, 208, 0.589);
+    padding: 10px 20px;
+}
+.AjaxContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.AjaxCart{
+    border: 1px solid rgba(128, 128, 128, 0.733);
+    margin: 10px;
+    margin-top: 30px;
+    border-radius: 8px;
+    padding: 10px;
+}
+.AjaxCart img{
+    width: 100%;
+    border-radius: 8px;
+}
+.AjaxCart .con{
+    margin-top: 10px;
+}
+.AjaxActionBtn{
+    gap: 15px;
+    background-color: #ebebeb;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.AjaxActionBtn svg{
+    cursor: pointer;
+    /* background-color: darkslateblue; */
+    color: #0D6EFD;
+    font-size: 33px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 8px;
+
+}
+.AjaxActionBtn svg:hover{
+    background-color: #FFC107;
+    color: #0D6EFD;
+}
+@media only screen and (max-width : 520px){
+    .AjaxTab{
+        transform: translateY(255px);
+        }
+}
+@media only screen and (max-width : 450px){
+    .AjaxTab{
+    transform: translateY(320px);
+    }
+    .AjaxTabBtn{
+        /* flex-wrap: wrap; */
+        width: 100%;
+    }
+}

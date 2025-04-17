@@ -1,0 +1,34 @@
+.d-flex{
+    display: flex;
+    justify-content: start !important;
+    align-items: center;
+}
+.UserState .box{
+    gap: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.UserState .box svg{
+    font-size: 30px;
+}
+.UserState .box .con span{
+    font-size: 20px;
+    margin-left: 10px;
+}
+.UserState{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;   
+    gap: 50px;
+    padding: 30px 0;
+    background: rgba(189, 189, 189, 0.29);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.1px);
+    -webkit-backdrop-filter: blur(5.1px);
+    border: 1px solid rgba(189, 189, 189, 1);
+}

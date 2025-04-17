@@ -1,0 +1,9 @@
+button.ant-btn.css-dev-only-do-not-override-11xg00t.ant-btn-default{
+    margin: 0 !important;
+}
+.btnSubAddPro{
+    margin-top: 10px;
+}
+:where(.css-dev-only-do-not-override-11xg00t).ant-modal .ant-modal-footer >.ant-btn+.ant-btn{
+    margin: inline start 0;
+}

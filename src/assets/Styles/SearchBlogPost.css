@@ -1,0 +1,34 @@
+.Postcards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.Postcards .Postcard{
+    width: 300px;
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 8px;
+}
+.Postcards .Postcard .AboutPost{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+    flex-direction: column;
+    margin: 10px 0;
+}
+.Postcards .Postcard .AboutPost span{
+    background-color: rgb(231, 231, 231);
+    padding: 3px;
+    border-radius: 8px;
+}
+.Postcards .Postcard .Postbtn{
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+/* :where(.css-dev-only-do-not-override-11xg00t).ant-btn:first-child{
+    display: none ;
+} */

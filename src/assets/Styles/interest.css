@@ -1,0 +1,9 @@
+.d-flex{
+    display: flex;
+    justify-self: start;
+    align-items: center;
+}
+.ContainerIntrestedProduct{
+    gap: 20px;
+    margin: 100px 80px; 
+}

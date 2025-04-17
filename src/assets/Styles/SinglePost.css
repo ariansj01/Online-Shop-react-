@@ -1,0 +1,157 @@
+.Container{
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    padding: 0 50px;
+}
+.MainContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* width: 80%; */
+    text-align: justify;
+    /* transform: translateX(-100px); */
+    background-color: rgb(243, 243, 243);
+    margin: 20px;
+    border-radius: 20px;
+    padding: 0 50px;
+}
+.MainContent .title{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    /* gap: 50px; */
+    padding: 20px 0;
+}
+.MainContent .title p{
+    font-weight: 600;
+    font-size: larger;
+    /* text-align: justify; */
+
+}
+.MainContent .title button{
+    width: 150px;
+    border: none;
+    background-color: tomato;
+    color: white;
+    border-radius: 8px;
+    padding: 5px;
+}
+.MainContent .pic img{
+    border-radius: 20px;
+    /* width: 850px; */
+    /* height: 500px; */
+    width: 100%;
+}
+.MainContent .pic .aboutPost{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 20px;
+    align-items: center;
+    background-color: rgba(243, 243, 243, 0.616);
+    padding: 20px;
+    border-radius: 20px 20px 0 0;
+    transform: translateY(-90px);
+}
+.MainContent .pic .aboutPost p{
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.MainContent .summery h3{
+    position: relative;
+}
+
+.MainContent .summery h3::after{
+    content: "";
+    position: absolute;
+    width: 10%;
+    height: 2px;
+    border-radius: 50%;
+    top: 17px;
+    left: -4px;
+    background-color: rgb(190, 190, 190);
+}
+.lastPost{
+    /* position: sticky; */
+    /* top: 10px; */
+    background-color: rgb(207, 207, 207);
+    /* height: 550px; */
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 20px;
+    padding: 5px 10px;
+    margin: 20px;
+}
+.lastPost h5{
+    /* text-align: start; */
+    background-color: darkorange;
+    color: white;
+    border-radius:  78px 60px 88px 47px;
+    padding: 8px;
+}
+.lastPost .cartLastpost:last-child{
+    border: none;
+}
+.lastPost .cartLastpost{
+    display: flex;
+    gap: 20px;
+    border-bottom: 1px solid gray;
+    padding-top: 5px;
+    width: 100%;
+}
+.lastPost .cartLastpost .img img{
+    border-radius: 8px;
+}
+.lastPost .cartLastpost .parentContentLastPost{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.lastPost .cartLastpost .contentLastPost{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+.lastPost .cartLastpost .contentLastPost .aboutPost{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+
+}
+.lastPost .cartLastpost .parentContentLastPost .btnShowPost{
+    border: none;
+    width: 100px;
+    border-radius: 5px;
+    padding: 2px 7px;
+    background-color: darkorange;
+    color: white;
+}
+@media only screen and (max-width : 1000px){
+    .Container{
+        padding: 0;
+    }
+    .MainContent{
+        margin: 10px;
+        padding: 5px;
+        /* text-align: center; */
+    }
+    .MainContent .title{
+        justify-content: center;
+    }
+    .MainContent .pic .aboutPost{
+        justify-content: start;
+        padding: 5px;
+        margin: 0;
+    }
+    
+}

@@ -1,0 +1,78 @@
+{
+    "Header" : {
+        "Title" : "Online Shop" ,
+        "EndPointTitle" : "kaveh" ,
+        "subTitle" : "A store of modern technologies",
+        "Menu":{
+            "Categori" : "Categori" ,
+            "Home" : "Home" , 
+            "Shop" : "Shop" ,
+            "AboutUs" : "AboutUs" , 
+            "ContactUs" : "ContactUs" , 
+            "Blog" : "Blog"
+        },
+        "SearchBox" : "Search..."   
+    },
+    "Categori" : {
+        "Mobile" : "Mobile" ,
+        "Gejet" : "man" , 
+        "Console" : "Women" ,
+        "Digital" : "Child" , 
+        "LapTop" : "LapTop" 
+    },
+    "AmazingSugustion" : {
+        "Title" :  "Amazing offer",
+        "btn" : "See All"
+    },
+    "BestSell" : {
+        "Title" : "Proposal Category" ,
+        "subTitle" : "A selected category every day"
+    },
+    "AboutUs" : {
+        "Title" : "Shop" ,
+        "EndPointTitle" : "kaveh" ,
+        "SubTitle" : "The most diverse store with your favorite style",
+        "Content" : "Lorem Epsom is a mock text with an incomprehensible simplicity produced by the printing industry and used by graphic designers. Printers and texts, but newspapers and magazines in columns and rows as necessary and for the current conditions of the technology required and diverse applications with the aim of improving practical tools. Many books in the sixty-three percent of the past, present and future require a lot of knowledge from the society and experts to create more knowledge for computer designers, especially creative designers and leading culture in Persian language. In this case, it can be hoped that all the difficulty in providing solutions and difficult typing conditions will end and the time needed to include Chinese characters, the main achievements and answer the continuous questions of the existing world of design will be basically used."
+    },
+    "FooterMenu" : {
+        "TitleMenu" : "Access" ,
+        "EndPointTitleMenu" : "Quik" ,
+        "Menu1" : {
+            "Courses" : "Education Courses",
+            "Mag" : "Kaveh Mag",
+            "SellInSite" : "Sell in Kaveh",
+            "Jobs" : "opportunity Jobs",
+            "CallToUs" : "Call to kaveh"
+        },
+        "Menu2" : {
+            "Courses" : "Education Courses",
+            "Mag" : "Kaveh Mag",
+            "SellInSite" : "Sell in Kaveh",
+            "Jobs" : "opportunity Jobs",
+            "CallToUs" : "Call to kaveh"
+        }
+    },
+    "FooterAboutShop" : {
+        "Title" : "Online Shop",
+        "Content" : "It has started its activity since 2018 in the field of selling hardware wallets. This collection of goods supplies directly through the main manufacturers of hardware wallets without intermediaries and also provides a guarantee of the authenticity and health of the goods to all customers. Our main goal is to supply hardware wallets directly in and through the main manufacturers of hardware wallets",
+        "btn" : "About Us"
+    },
+    "BottomFooter" : {
+        "Title" : "Call" ,
+        "EndPointTitle" : "To Us" ,
+        "Address" : "Isfahan, Imam Khomeini St., next to social security insurance building, fifth floor, unit",
+        "Email" : "ariansj.ir@gmail.com",
+        "QuikCall" : "Fast support",
+        "MakerSite" : "All rights of this site belong to Arian Seyedi"
+    },
+    "Blog" : {
+        "Title" : "Kaveh Store Blog",
+        "SubTitle" : "Experience quality articles and learning with Kaveh",
+        "PlhSearch" : "Please Enter The Post Name",
+        "NewPostTitle" : "New Post:",
+        "PostBtn" : "Read...",
+        "CenterSliderBtn" : "view the post",
+        "Time" : "minutes"
+    }
+
+}

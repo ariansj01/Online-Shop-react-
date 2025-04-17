@@ -1,0 +1,20 @@
+.SelectOP .SelectOPTChange{
+    width: 60px;
+    position: absolute !important;
+    top: 570px;
+}
+.SelectOP .SelectOPTChangeFA{
+    left: 1px;
+    width: 70px;
+}
+.SelectOP .SelectOPTChangeTheme{
+    right: 1px;
+}
+body.light{
+    background-color: white;
+    color: black;
+}
+body.dark{
+    background-color: #0E182A;
+    color: white;
+}

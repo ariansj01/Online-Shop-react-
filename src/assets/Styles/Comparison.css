@@ -1,0 +1,10 @@
+tr{
+    text-align: center;
+}
+td button{
+    background: linear-gradient(23deg, #fc5741 0%, #ff8d8d 100%);
+    padding: 8px;
+    box-shadow: 0px 2px 25px 0px rgba(255, 157.99999999999994, 115.00000000000001, 0.51);
+    border-radius: 10px;
+    border: none;
+}
